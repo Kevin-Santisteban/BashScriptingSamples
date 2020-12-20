@@ -1,18 +1,3 @@
-
-#----------------------------------------------------------------------------------------------
-echo "fffffffffffffffffffffffffffffff11111111111111111111111111111111111111111111111111" > f1
-echo "Sssssssssssssssssssssssstoooooooooooooooooooooooooooooooooooooooooooooooooooooooo" > stop
-   cat > f1 < stop
-   cat f1 stop  > t1_1
-   cat t1_1
-
-rm -rf f1 stop
-# < sends stop content to cat command as an input
-#-----------------------------------------------------------------------------------------------
-echo "fffffffffffffffffffffffffffffff11111111111111111111111111111111111111111111111111" > f1
-echo "Sssssssssssssssssssssssstoooooooooooooooooooooooooooooooooooooooooooooooooooooooo" > stop
-
-   cat > f1 << stop
    cat f1 stop  > t1_2
    
     cat t1_2
